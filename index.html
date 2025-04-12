@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Menu Of Quiz -->
+    <div class="menu">
+        <h2>Uč se  Chemické Prvky</h2>
+        <div class="category-options">
+            <h4>Jaké prvky se potřebuješ naučit?</h4>
+            <div class="options">
+                <button value="half" class="category-option">Vsechny které máme umět</button>
+                <button class="category-option active">1.A Skupinu</button>
+            </div>
+        </div>
+        <div class="category-options">
+            <h4>Jak se je potřebujete naučit?</h4>
+            <div class="options">
+                <button class="category-option active">Z Názvu na Značku</button>
+                <button class="category-option">Ze Značky na Název</button>
+            </div>
+        </div>
+
+        <button class="start-btn">Zapnout Quiz</button>
+    </div>
+
+    <!-- Quiz -->
+    <div class="quiz">
+        <header class="quiz-head">
+            <h2 class="title">Ahoj</h2>
+        </header>
+
+        <div class="content">
+            <h1 class="question">How to do that</h1>
+            <ul class="answers">
+                <li class="answer correct">
+                    <p>B</p>
+                </li>
+                <li class="answer incorrect">
+                    <p>P</p>
+                </li>
+                <li class="answer">
+                    <p>C</p>
+                </li>
+                <li class="answer">
+                    <p>A</p>
+                </li>
+            </ul>
+        </div>
+        <div class="quiz-footer">
+            <p class="count"><b>1.</b> z <b>10.</b> Prvků</p>
+            <button class="next-question">Další Prvek → </button>
+        </div>
+    </div>
+
+    <!-- End Of Quiz -->
+    <div class="end-quiz">
+        <h2 class="end-title">Konec🎉</h2>
+        <p class="end-text">Měl jsi <b class="good">2</b> z <b class="from">10</b> Prvků správně.</p>
+        <button class="restart-btn">Znovu</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
