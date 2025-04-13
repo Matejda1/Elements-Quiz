@@ -4,26 +4,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Kvíz na chemické vzorečky</title>
+    <!-- Link to external css -->
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <!-- Menu Of Quiz -->
     <div class="menu">
-        <h2>Uč se  Chemické Prvky</h2>
+        <h2>Uč se Chemické Prvky</h2>
         <div class="category-options">
             <h4>Jaké prvky se potřebuješ naučit?</h4>
             <div class="options">
-                <button value="half" class="category-option">Vsechny které máme umět</button>
-                <button class="category-option active">1.A Skupinu</button>
+                <button value="all" class="category-option what">Vsechny které máme umět</button>
+                <button value="a" class="category-option what">1.A Skupinu</button>
             </div>
         </div>
         <div class="category-options">
             <h4>Jak se je potřebujete naučit?</h4>
             <div class="options">
-                <button class="category-option active">Z Názvu na Značku</button>
-                <button class="category-option">Ze Značky na Název</button>
+                <button value="to" class="category-option from">Z Názvu na Značku</button>
+                <button value="from" class="category-option from">Ze Značky na Název</button>
             </div>
         </div>
 
@@ -33,38 +34,28 @@
     <!-- Quiz -->
     <div class="quiz">
         <header class="quiz-head">
-            <h2 class="title">Ahoj</h2>
+            <h2 class="title"></h2>
         </header>
 
         <div class="content">
-            <h1 class="question">How to do that</h1>
-            <ul class="answers">
-                <li class="answer correct">
-                    <p>B</p>
-                </li>
-                <li class="answer incorrect">
-                    <p>P</p>
-                </li>
-                <li class="answer">
-                    <p>C</p>
-                </li>
-                <li class="answer">
-                    <p>A</p>
-                </li>
-            </ul>
+            <h1 class="question"></h1>
+            <div class="answers">
+            </div>
         </div>
         <div class="quiz-footer">
-            <p class="count"><b>1.</b> z <b>10.</b> Prvků</p>
-            <button class="next-question">Další Prvek → </button>
+            <p class="count"><b class="toEnd">1.</b> z <b class="howMuch">10.</b> Prvků</p>
+            <button class="next-question"> </button>
         </div>
     </div>
 
     <!-- End Of Quiz -->
     <div class="end-quiz">
         <h2 class="end-title">Konec🎉</h2>
-        <p class="end-text">Měl jsi <b class="good">2</b> z <b class="from">10</b> Prvků správně.</p>
-        <button class="restart-btn">Znovu</button>
+        <p class="end-text">Měl jsi <b class="good"></b> z <b class="fromAns"></b> Prvků správně.</p>
+        <button class="restart-btn" onclick="toMenu()">Znovu</button>
     </div>
+
+    <!-- Link to external Js -->
     <script src="./Js/db.js"></script>
     <script src="./Js/script.js"></script>
 </body>
