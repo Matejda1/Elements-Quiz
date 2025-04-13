@@ -75,8 +75,8 @@ function startQuiz() {
     shuffleAnsA();
     shuffleAnsA();
     shuffle(group1AWords);
-    shuffleAnsAllW();
-    shuffleAnsAllW();
+    shuffleAnsAW();
+    shuffleAnsAW();
 
     showQuestion()
 }
@@ -98,7 +98,6 @@ function showQuestion() {
     } else if (what == "all" && from == "from") {
         currentQuestion = allElementsWords[currentQuestionIndex];
         much = allElementsWords.length;
-        console.log(allElementsWords)
         title.innerHTML = "Všechny prvky - Ze značek na název";
     } else if (what == "a" && from == "to") {
         currentQuestion = group1A[currentQuestionIndex];
