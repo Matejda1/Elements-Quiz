@@ -392,7 +392,7 @@ const allElementsWords = [
             { text: "Kyslík", correct: true },
             { text: "Dusík", correct: false },
             { text: "Astat", correct: false },
-            { text: "At", correct: false }
+            { text: "Vodík", correct: false }
         ]
     },
     {
@@ -561,9 +561,9 @@ const allElementsWords = [
         question: "Cu",
         answers: [
             { text: "Měď", correct: true },
-            { text: "C", correct: false },
-            { text: "Hg", correct: false },
-            { text: "Ag", correct: false }
+            { text: "Tellur", correct: false },
+            { text: "Bor", correct: false },
+            { text: "Vodík", correct: false }
         ]
     },
     {
@@ -616,7 +616,7 @@ const allElementsWords = [
         answers: [
             { text: "Lithium", correct: true },
             { text: "Draslík", correct: false },
-            { text: "vodík", correct: false },
+            { text: "Vodík", correct: false },
             { text: "Cesium", correct: false }
         ]
     },
