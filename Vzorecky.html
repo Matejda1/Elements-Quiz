@@ -25,6 +25,8 @@
             <div class="options">
                 <button value="to" class="category-option from">Z Názvu na Značku</button>
                 <button value="from" class="category-option from">Ze Značky na Název</button>
+                <button value="fromM" class="category-option from">Psaní odpovědí - Z Názvu na Značku</button>
+                <button value="toM" class="category-option from">Psaní odpovědí - Ze Značky na Název</button>
             </div>
         </div>
 
@@ -32,7 +34,8 @@
     </div>
 
     <!-- Quiz -->
-    <div class="quiz">
+    <!-- With Buttons -->
+    <div class="quiz" style="display: none;">
         <header class="quiz-head">
             <h2 class="title"></h2>
         </header>
@@ -45,6 +48,25 @@
         <div class="quiz-footer">
             <p class="count"><b class="toEnd">1.</b> z <b class="howMuch">10.</b> Prvků</p>
             <button class="next-question"> </button>
+        </div>
+    </div>
+    <!-- With Input -->
+    <div class="quiz-input" style="display: none;">
+        <header class="quiz-headI">
+            <h2 class="titleI">Ahoj</h2>
+        </header>
+
+        <div class="contentI">
+            <h1 class="questionI">AA</h1>
+            <div class="answersI">
+                <input type="text" class="input user-input" placeholder="Napiš odpověď" autocomplete="off" required>
+                <p class="goodAns"> </p>
+                <button class="check-answer">Odpovědět</button>
+            </div>
+        </div>
+        <div class="quiz-footerI">
+            <p class="countI"><b class="toEndI">1.</b> z <b class="howMuchI">10.</b> Prvků</p>
+            <button class="next-questionI"> </button>
         </div>
     </div>
 

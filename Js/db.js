@@ -1,5 +1,7 @@
 // This file contains the database of elements and their properties
 
+// With Answers
+
 // Structure of the database
 
 //    question: "",
@@ -729,5 +731,351 @@ const group1AWords = [
             { text: "Rubidium", correct: false },
             { text: "Germanium", correct: false }
         ]
+    }
+]
+
+// With Inputs
+
+// Structure of the database
+//    question: "",
+//    answer: "",
+
+// From Words to Elements
+
+// All 
+
+const allElementsInputs = [
+    {
+        question: "Vodík",
+        answer: "H",
+    },
+    {
+        question: "Kyslík",
+        answer: "O",
+    },
+    {
+        question: "Dusík",
+        answer: "N",
+    },
+    {
+        question: "Fluor",
+        answer: "F",
+    },
+    {
+        question: "Chlor",
+        answer: "Cl",
+    },
+    {
+        question: "Brom",
+        answer: "Br",
+    },
+    {
+        question: "Jód",
+        answer: "I",
+    },
+    {
+        question: "Uhlík",
+        answer: "C",
+    },
+    {
+        question: "Síra",
+        answer: "S",
+    },
+    {
+        question: "Fosfor",
+        answer: "P",
+    },
+    {
+        question: "Bor",
+        answer: "B",
+    },
+    {
+        question: "Křemík",
+        answer: "Si",
+    },
+    {
+        question: "Germanium",
+        answer: "Ge",
+    },
+    {
+        question: "Arsen",
+        answer: "As",
+    },
+    {
+        question: "Selen",
+        answer: "Se",
+    },
+    {
+        question: "Antimon",
+        answer: "Sb",
+    },
+    {
+        question: "Tellur",
+        answer: "Te",
+    },
+    {
+        question: "Astat",
+        answer: "At",
+    },
+    {
+        question: "Hliník",
+        answer: "Al",
+    },
+    {
+        question: "Železo",
+        answer: "Fe",
+    },
+    {
+        question: "Měď",
+        answer: "Cu",
+    },
+    {
+        question: "Zlato",
+        answer: "Au",
+    },
+    {
+        question: "Stříbro",
+        answer: "Ag",
+    },
+    {
+        question: "Olovo",
+        answer: "Pb",
+    },
+    {
+        question: "Zinek",
+        answer: "Zn",
+    },
+    {
+        question: "Rtuť",
+        answer: "Hg",
+    },
+    {
+        question: "Vodík",
+        answer: "H",
+    },
+    {
+        question: "Lithium",
+        answer: "Li",
+    },
+    {
+        question: "Sodík",
+        answer: "Na",
+    },
+    {
+        question: "Draslík",
+        answer: "K",
+    },
+    {
+        question: "Rubidium",
+        answer: "Rb",
+    },
+    {
+        question: "Cesium",
+        answer: "Cs",
+    },
+    {
+        question: "Francium",
+        answer: "Fr",
+    }
+]
+
+// 1.A Group
+
+const group1AInputs = [
+    {
+        question: "Vodík",
+        answer: "H",
+    },
+    {
+        question: "Lithium",
+        answer: "Li",
+    },
+    {
+        question: "Sodík",
+        answer: "Na",
+    },
+    {
+        question: "Draslík",
+        answer: "K",
+    },
+    {
+        question: "Rubidium",
+        answer: "Rb",
+    },
+    {
+        question: "Cesium",
+        answer: "Cs",
+    },
+    {
+        question: "Francium",
+        answer: "Fr",
+    }
+]
+
+// From Elements to Words
+
+// All
+
+const allElementsWordsInputs = [
+    {
+        question: "H",
+        answer: "Vodík",
+    },
+    {
+        question: "O",
+        answer: "Kyslík",
+    },
+    {
+        question: "N",
+        answer: "Dusík",
+    },
+    {
+        question: "F",
+        answer: "Fluor",
+    },
+    {
+        question: "Cl",
+        answer: "Chlor",
+    },
+    {
+        question: "Br",
+        answer: "Brom",
+    },
+    {
+        question: "I",
+        answer: "Jód",
+    },
+    {
+        question: "C",
+        answer: "Uhlík",
+    },
+    {
+        question: "S",
+        answer: "Síra",
+    },
+    {
+        question: "P",
+        answer: "Fosfor",
+    },
+    {
+        question: "B",
+        answer: "Bor",
+    },
+    {
+        question: "Si",
+        answer: "Křemík",
+    },
+    {
+        question: "Ge",
+        answer: "Germanium",
+    },
+    {
+        question: "As",
+        answer: "Arsen",
+    },
+    {
+        question: "Se",
+        answer: "Selen",
+    },
+    {
+        question: "Sb",
+        answer: "Antimon",
+    },
+    {
+        question: "Te",
+        answer: "Tellur",
+    },
+    {
+        question: "At",
+        answer: "Astat",
+    },
+    {
+        question: "Al",
+        answer: "Hliník",
+    },
+    {
+        question: "Fe",
+        answer: "Železo",
+    },
+    {
+        question: "Cu",
+        answer: "Měď",
+    },
+    {
+        question: "Au",
+        answer: "Zlato",
+    },
+    {
+        question: "Ag",
+        answer: "Stříbro",
+    },
+    {
+        question: "Pb",
+        answer: "Olovo",
+    },
+    {
+        question: "Zn",
+        answer: "Zinek",
+    },
+    {
+        question: "Hg",
+        answer: "Rtuť",
+    },
+    {
+        question: "Li",
+        answer: "Lithium",
+    },
+    {
+        question: "Na",
+        answer: "Sodík",
+    },
+    {
+        question: "K",
+        answer: "Draslík",
+    },
+    {
+        question: "Rb",
+        answer: "Rubidium",
+    },
+    {
+        question: "Cs",
+        answer: "Cesium",
+    },
+    {
+        question: "Fr",
+        answer: "Francium",
+    }
+]
+
+// 1.A Group
+
+const group1AWordsInputs = [
+    {
+        question: "H",
+        answer: "Vodík",
+    },
+    {
+        question: "Li",
+        answer: "Lithium",
+    },
+    {
+        question: "Na",
+        answer: "Sodík",
+    },
+    {
+        question: "K",
+        answer: "Draslík",
+    },
+    {
+        question: "Rb",
+        answer: "Rubidium",
+    },
+    {
+        question: "Cs",
+        answer: "Cesium",
+    },
+    {
+        question: "Fr",
+        answer: "Francium",
     }
 ]
