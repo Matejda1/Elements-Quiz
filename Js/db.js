@@ -850,10 +850,6 @@ const allElementsInputs = [
         answer: "Hg",
     },
     {
-        question: "Vodík",
-        answer: "H",
-    },
-    {
         question: "Lithium",
         answer: "Li",
     },
