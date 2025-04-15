@@ -23,6 +23,11 @@ const toEndI = document.querySelector(".toEndI");
 const howMuchI = document.querySelector(".howMuchI");
 const checkBtn = document.querySelector(".check-answer");
 const userInput = document.querySelector(".user-input");
+// Const viriables for alert
+const alertBox = document.querySelector(".alert");
+const titleA = document.querySelector(".titleA");
+const textA = document.querySelector(".text");
+const confirmABtn = document.querySelector(".confirmABtn");
 
 // Let variables for all file
 let currentQuestionIndex = 0;
@@ -121,7 +126,7 @@ function startQuiz() {
         quizI.style.display = "block";
     } else {
         console.log("error don't work")
-        alert("Něco je špatně, zkuste to znovu. Pokud to ani tak nefunguje, konatujte vyvojáře.")
+        showAlert("Upozornění", "Něco je špatně, zkuste to znovu. Pokud to ani tak nefunguje, konatujte vyvojáře.", "Okay");
     }
 }
 
@@ -153,7 +158,7 @@ function showQuestion() {
         title.innerHTML = "1.A skupina - Ze značek na název"
     } else {
         console.log("error don't work")
-        alert("Něco je špatně, zkuste to znovu. Pokud to ani tak nefunguje, konatujte vyvojáře.")
+        showAlert("Upozornění", "Něco je špatně, zkuste to znovu. Pokud to ani tak nefunguje, konatujte vyvojáře.", "Okay");
     }
 
     let questionNumber = currentQuestionIndex + 1;
@@ -253,7 +258,7 @@ startBtn.addEventListener("click", () => {
     if (whatActive && fromActive) {
         startQuiz();
     } else {
-        alert("Musíte vybrat jaké a jak se chcete vzorečky naučit.");
+        showAlert("Upozornění", "Pokud chcete začít, musíte vybrat jaké a jak se chcete vzorečky naučit.", "Okay");
     }
 });
 
@@ -297,7 +302,7 @@ function showQuestionM() {
         titleI.innerHTML = "1.A skupina - Z názvů na značky"
     } else {
         console.log("error don't work")
-        alert("Něco je špatně, zkuste to znovu. Pokud to ani tak nefunguje, konatujte vyvojáře.")
+        showAlert("Upozornění", "Něco je špatně, zkuste to znovu. Pokud to ani tak nefunguje, konatujte vyvojáře.", "Okay");
     }
 
     currentQuestionM = currentQuestion;
@@ -357,8 +362,24 @@ checkBtn.addEventListener("click", () => {
         nextBtnI.style.display = "block";
         userInput.disabled = true;
     } else {
-        alert("Musíte zadat odpověď.");
+        showAlert("Upozornění", "Musíte napsat odpověď.", "Oka");
     }
 });
 
 nextBtnI.addEventListener("click", nextQuestionI);
+
+// Alerts Function
+function showAlert(title, text, btnText) {
+    titleA.innerHTML = title
+    textA.innerHTML = text;
+    confirmABtn.innerHTML = btnText;
+
+    alertBox.style.display = "flex";
+}
+
+confirmABtn.addEventListener("click", () => {
+    alertBox.style.display = "none";
+    titleA.innerHTML = "";
+    textA.innerHTML = "";
+    confirmABtn.innerHTML = "";
+})

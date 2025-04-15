@@ -83,7 +83,8 @@ body {
 .quiz-footer .next-question,
 .end-quiz .restart-btn,
 .quiz-input .next-questionI,
-.contentI .answersI .check-answer {
+.contentI .answersI .check-answer,
+.confirmABtn {
     color: #fff;
     border: none;
     cursor: pointer;
@@ -102,7 +103,8 @@ body {
 .quiz-footer .next-question:hover,
 .end-quiz .restart-btn:hover,
 .quiz-input .next-questionI:hover,
-.contentI .answersI .check-answer:hover {
+.contentI .answersI .check-answer:hover,
+.confirmABtn:hover {
     background: #0b4eba;
     transition: all 0.3s ease;
 }
@@ -249,4 +251,42 @@ body {
 .end-quiz .restart-btn {
     margin-top: 10px;
     margin-bottom: 5px;
+}
+
+/* Alert */
+.alert {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.all-contentA {
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+.alert .all-contentA .titleA {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.alert .all-contentA .contentA {
+    margin-top: 10px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.alert .all-contentA .confirmABtn {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding: 10px;
 }
