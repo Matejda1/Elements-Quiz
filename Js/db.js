@@ -303,6 +303,177 @@ const allElements = [
             { text: "Rb", correct: false },
             { text: "K", correct: false }
         ]
+    },
+    {
+        question: "Berylium",
+        answers: [
+            { text: "Be", correct: true },
+            { text: "B", correct: false },
+            { text: "C", correct: false },
+            { text: "N", correct: false }
+        ]
+    },
+    {
+        question: "Hořčík",
+        answers: [
+            { text: "Mg", correct: true },
+            { text: "Al", correct: false },
+            { text: "Si", correct: false },
+            { text: "S", correct: false }
+        ]
+    },
+    {
+        question: "Vápník",
+        answers: [
+            { text: "Ca", correct: true },
+            { text: "K", correct: false },
+            { text: "Na", correct: false },
+            { text: "Rb", correct: false }
+        ]
+    },
+    {
+        question: "Stroncium",
+        answers: [
+            { text: "Sr", correct: true },
+            { text: "Ba", correct: false },
+            { text: "Ra", correct: false },
+            { text: "Cs", correct: false }
+        ]
+    },
+    {
+        question: "Baryum",
+        answers: [
+            { text: "Ba", correct: true },
+            { text: "Sr", correct: false },
+            { text: "Ra", correct: false },
+            { text: "Rb", correct: false }
+        ]
+    },
+    {
+        question: "Radium",
+        answers: [
+            { text: "Ra", correct: true },
+            { text: "Ba", correct: false },
+            { text: "Sr", correct: false },
+            { text: "Cs", correct: false }
+        ]
+    },
+    {
+        question: "Cín",
+        answers: [
+            { text: "Sn", correct: true },
+            { text: "Pb", correct: false },
+            { text: "Ag", correct: false },
+            { text: "Au", correct: false }
+        ]
+    },
+    {
+        question: "Mangan",
+        answers: [
+            { text: "Mn", correct: true },
+            { text: "Fe", correct: false },
+            { text: "Co", correct: false },
+            { text: "Ni", correct: false }
+        ]
+    },
+    {
+        question: "Chrom",
+        answers: [
+            { text: "Cr", correct: true },
+            { text: "Fe", correct: false },
+            { text: "Co", correct: false },
+            { text: "Ni", correct: false }
+        ]
+    },
+    {
+        question: "Nikl",
+        answers: [
+            { text: "Ni", correct: true },
+            { text: "Fe", correct: false },
+            { text: "Co", correct: false },
+            { text: "Cu", correct: false }
+        ]
+    },
+    {
+        question: "Kobalt",
+        answers: [
+            { text: "Co", correct: true },
+            { text: "Fe", correct: false },
+            { text: "Ni", correct: false },
+            { text: "Cu", correct: false }
+        ]
+    },
+    {
+        question: "Platina",
+        answers: [
+            { text: "Pt", correct: true },
+            { text: "Ag", correct: false },
+            { text: "Au", correct: false },
+            { text: "Hg", correct: false }
+        ]
+    },
+    {
+        question: "Helium",
+        answers: [
+            { text: "He", correct: true },
+            { text: "H", correct: false },
+            { text: "Li", correct: false },
+            { text: "Be", correct: false }
+        ]
+    },
+    {
+        question: "Neon",
+        answers: [
+            { text: "Ne", correct: true },
+            { text: "N", correct: false },
+            { text: "Ar", correct: false },
+            { text: "Kr", correct: false }
+        ]
+    },
+    {
+        question: "Argon",
+        answers: [
+            { text: "Ar", correct: true },
+            { text: "Kr", correct: false },
+            { text: "Xe", correct: false },
+            { text: "Rn", correct: false }
+        ]
+    },
+    {
+        question: "Krypton",
+        answers: [
+            { text: "Kr", correct: true },
+            { text: "Xe", correct: false },
+            { text: "Rn", correct: false },
+            { text: "Ar", correct: false }
+        ]
+    },
+    {
+        question: "Xenon",
+        answers: [
+            { text: "Xe", correct: true },
+            { text: "Rn", correct: false },
+            { text: "Kr", correct: false },
+            { text: "Ar", correct: false }
+        ]
+    },
+    {
+        question: "Radon",
+        answers: [
+            { text: "Rn", correct: true },
+            { text: "Xe", correct: false },
+            { text: "Kr", correct: false },
+            { text: "Ar", correct: false }
+        ]
+    },
+    {
+        question: "Oganesson",
+        answers: [
+            { text: "Og", correct: true },
+            { text: "Rn", correct: false },
+            { text: "Xe", correct: false },
+            { text: "Kr", correct: false }
+        ]
     }
 ]
 
@@ -373,6 +544,130 @@ const group1A = [
     }
 ]
 
+// 2.A Group
+const group2A = [
+    {
+        question: "Berylium",
+        answers: [
+            { text: "Be", correct: true },
+            { text: "B", correct: false },
+            { text: "C", correct: false },
+            { text: "N", correct: false }
+        ]
+    },
+    {
+        question: "Hořčík",
+        answers: [
+            { text: "Mg", correct: true },
+            { text: "Al", correct: false },
+            { text: "Si", correct: false },
+            { text: "S", correct: false }
+        ]
+    },
+    {
+        question: "Vápník",
+        answers: [
+            { text: "Ca", correct: true },
+            { text: "K", correct: false },
+            { text: "Na", correct: false },
+            { text: "Rb", correct: false }
+        ]
+    },
+    {
+        question: "Stroncium",
+        answers: [
+            { text: "Sr", correct: true },
+            { text: "Ba", correct: false },
+            { text: "Ra", correct: false },
+            { text: "Cs", correct: false }
+        ]
+    },
+    {
+        question: "Baryum",
+        answers: [
+            { text: "Ba", correct: true },
+            { text: "Sr", correct: false },
+            { text: "Ra", correct: false },
+            { text: "Rb", correct: false }
+        ]
+    },
+    {
+        question: "Radium",
+        answers: [
+            { text: "Ra", correct: true },
+            { text: "Ba", correct: false },
+            { text: "Sr", correct: false },
+            { text: "Cs", correct: false }
+        ]
+    }
+]
+
+// 8.A Group
+const group8A = [
+    {
+        question: "Helium",
+        answers: [
+            { text: "He", correct: true },
+            { text: "H", correct: false },
+            { text: "Li", correct: false },
+            { text: "Be", correct: false }
+        ]
+    },
+    {
+        question: "Neon",
+        answers: [
+            { text: "Ne", correct: true },
+            { text: "N", correct: false },
+            { text: "Ar", correct: false },
+            { text: "Kr", correct: false }
+        ]
+    },
+    {
+        question: "Argon",
+        answers: [
+            { text: "Ar", correct: true },
+            { text: "Kr", correct: false },
+            { text: "Xe", correct: false },
+            { text: "Rn", correct: false }
+        ]
+    },
+    {
+        question: "Krypton",
+        answers: [
+            { text: "Kr", correct: true },
+            { text: "Xe", correct: false },
+            { text: "Rn", correct: false },
+            { text: "Ar", correct: false }
+        ]
+    },
+    {
+        question: "Xenon",
+        answers: [
+            { text: "Xe", correct: true },
+            { text: "Rn", correct: false },
+            { text: "Kr", correct: false },
+            { text: "Ar", correct: false }
+        ]
+    },
+    {
+        question: "Radon",
+        answers: [
+            { text: "Rn", correct: true },
+            { text: "Xe", correct: false },
+            { text: "Kr", correct: false },
+            { text: "Ar", correct: false }
+        ]
+    },
+    {
+        question: "Oganesson",
+        answers: [
+            { text: "Og", correct: true },
+            { text: "Rn", correct: false },
+            { text: "Xe", correct: false },
+            { text: "Kr", correct: false }
+        ]
+    }
+]
 // From Elements to Words
 
 // All
@@ -664,7 +959,178 @@ const allElementsWords = [
             { text: "Selen", correct: false },
             { text: "Bor", correct: false }
         ]
-    }
+    },
+    {
+        question: "Be",
+        answers: [
+            { text: "Berylium", correct: true },
+            { text: "Kyslík", correct: false },
+            { text: "Síra", correct: false },
+            { text: "Uhlík", correct: false }
+        ]
+    },
+    {
+        question: "Mg",
+        answers: [
+            { text: "Hořčík", correct: true },
+            { text: "Kyslík", correct: false },
+            { text: "Síra", correct: false },
+            { text: "Uhlík", correct: false }
+        ]
+    },
+    {
+        question: "Ca",
+        answers: [
+            { text: "Vápník", correct: true },
+            { text: "Hořčík", correct: false },
+            { text: "Brom", correct: false },
+            { text: "Kyslík", correct: false }
+        ]
+    },
+    {
+        question: "Sr",
+        answers: [
+            { text: "Stroncium", correct: true },
+            { text: "Brom", correct: false },
+            { text: "Síra", correct: false },
+            { text: "Uhlík", correct: false }
+        ]
+    },
+    {
+        question: "Ba",
+        answers: [
+            { text: "Baryum", correct: true },
+            { text: "Hořčík", correct: false },
+            { text: "Síra", correct: false },
+            { text: "Uhlík", correct: false }
+        ]
+    },
+    {
+        question: "Ra",
+        answers: [
+            { text: "Radium", correct: true },
+            { text: "Brom", correct: false },
+            { text: "Síra", correct: false },
+            { text: "Uhlík", correct: false }
+        ]
+    },
+    {
+        question: "Sn",
+        answers: [
+            { text: "Cín", correct: true },
+            { text: "Olovo", correct: false },
+            { text: "Zlato", correct: false },
+            { text: "Stříbro", correct: false }
+        ]
+    },
+    {
+        question: "Mn",
+        answers: [
+            { text: "Mangan", correct: true },
+            { text: "Kyslík", correct: false },
+            { text: "Síra", correct: false },
+            { text: "Uhlík", correct: false }
+        ]
+    },
+    {
+        question: "Cr",
+        answers: [
+            { text: "Chrom", correct: true },
+            { text: "Kyslík", correct: false },
+            { text: "Síra", correct: false },
+            { text: "Uhlík", correct: false }
+        ]
+    },
+    {
+        question: "Ni",
+        answers: [
+            { text: "Nikl", correct: true },
+            { text: "Kyslík", correct: false },
+            { text: "Síra", correct: false },
+            { text: "Uhlík", correct: false }
+        ]
+    },
+    {
+        question: "Co",
+        answers: [
+            { text: "Kobalt", correct: true },
+            { text: "Kyslík", correct: false },
+            { text: "Síra", correct: false },
+            { text: "Uhlík", correct: false }
+        ]
+    },
+    {
+        question: "Pt",
+        answers: [
+            { text: "Platina", correct: true },
+            { text: "Kyslík", correct: false },
+            { text: "Síra", correct: false },
+            { text: "Uhlík", correct: false }
+        ]
+    },
+    {
+        question: "He",
+        answers: [
+            { text: "Helium", correct: true },
+            { text: "Kyslík", correct: false },
+            { text: "Síra", correct: false },
+            { text: "Uhlík", correct: false }
+        ]
+    },
+    {
+        question: "Ne",
+        answers: [
+            { text: "Neon", correct: true },
+            { text: "Kyslík", correct: false },
+            { text: "Síra", correct: false },
+            { text: "Uhlík", correct: false }
+        ]
+    },
+    {
+        question: "Ar",
+        answers: [
+            { text: "Argon", correct: true },
+            { text: "Kyslík", correct: false },
+            { text: "Síra", correct: false },
+            { text: "Uhlík", correct: false }
+        ]
+    },
+    {
+        question: "Kr",
+        answers: [
+            { text: "Krypton", correct: true },
+            { text: "Kyslík", correct: false },
+            { text: "Síra", correct: false },
+            { text: "Uhlík", correct: false }
+        ]
+    },
+    {
+        question: "Xe",
+        answers: [
+            { text: "Xenon", correct: true },
+            { text: "Kyslík", correct: false },
+            { text: "Síra", correct: false },
+            { text: "Uhlík", correct: false }
+        ]
+    },
+    {
+        question: "Rn",
+        answers: [
+            { text: "Radon", correct: true },
+            { text: "Kyslík", correct: false },
+            { text: "Síra", correct: false },
+            { text: "Uhlík", correct: false }
+        ]
+    },
+    {
+        question: "Og",
+        answers: [
+            { text: "Oganesson", correct: true },
+            { text: "Kyslík", correct: false },
+            { text: "Síra", correct: false },
+            { text: "Uhlík", correct: false }
+        ]
+    },
 ]
 
 // 1.A Group 
@@ -734,6 +1200,130 @@ const group1AWords = [
     }
 ]
 
+// 2.A Group
+const group2AWords = [
+    {
+        question: "Be",
+        answers: [
+            { text: "Berylium", correct: true },
+            { text: "Kyslík", correct: false },
+            { text: "Síra", correct: false },
+            { text: "Uhlík", correct: false }
+        ]
+    },
+    {
+        question: "Mg",
+        answers: [
+            { text: "Hořčík", correct: true },
+            { text: "Kyslík", correct: false },
+            { text: "Síra", correct: false },
+            { text: "Uhlík", correct: false }
+        ]
+    },
+    {
+        question: "Ca",
+        answers: [
+            { text: "Vápník", correct: true },
+            { text: "Hořčík", correct: false },
+            { text: "Brom", correct: false },
+            { text: "Kyslík", correct: false }
+        ]
+    },
+    {
+        question: "Sr",
+        answers: [
+            { text: "Stroncium", correct: true },
+            { text: "Brom", correct: false },
+            { text: "Síra", correct: false },
+            { text: "Uhlík", correct: false }
+        ]
+    },
+    {
+        question: "Ba",
+        answers: [
+            { text: "Baryum", correct: true },
+            { text: "Hořčík", correct: false },
+            { text: "Síra", correct: false },
+            { text: "Uhlík", correct: false }
+        ]
+    },
+    {
+        question: "Ra",
+        answers: [
+            { text: "Radium", correct: true },
+            { text: "Brom", correct: false },
+            { text: "Síra", correct: false },
+            { text: "Uhlík", correct: false }
+        ]
+    }
+]
+
+// 8.A Group
+const group8AWords = [
+    {
+        question: "He",
+        answers: [
+            { text: "Helium", correct: true },
+            { text: "Kyslík", correct: false },
+            { text: "Síra", correct: false },
+            { text: "Uhlík", correct: false }
+        ]
+    },
+    {
+        question: "Ne",
+        answers: [
+            { text: "Neon", correct: true },
+            { text: "Kyslík", correct: false },
+            { text: "Síra", correct: false },
+            { text: "Uhlík", correct: false }
+        ]
+    },
+    {
+        question: "Ar",
+        answers: [
+            { text: "Argon", correct: true },
+            { text: "Kyslík", correct: false },
+            { text: "Síra", correct: false },
+            { text: "Uhlík", correct: false }
+        ]
+    },
+    {
+        question: "Kr",
+        answers: [
+            { text: "Krypton", correct: true },
+            { text: "Kyslík", correct: false },
+            { text: "Síra", correct: false },
+            { text: "Uhlík", correct: false }
+        ]
+    },
+    {
+        question: "Xe",
+        answers: [
+            { text: "Xenon", correct: true },
+            { text: "Kyslík", correct: false },
+            { text: "Síra", correct: false },
+            { text: "Uhlík", correct: false }
+        ]
+    },
+    {
+        question: "Rn",
+        answers: [
+            { text: "Radon", correct: true },
+            { text: "Kyslík", correct: false },
+            { text: "Síra", correct: false },
+            { text: "Uhlík", correct: false }
+        ]
+    },
+    {
+        question: "Og",
+        answers: [
+            { text: "Oganesson", correct: true },
+            { text: "Kyslík", correct: false },
+            { text: "Síra", correct: false },
+            { text: "Uhlík", correct: false }
+        ]
+    }
+]
 // With Inputs
 
 // Structure of the database
@@ -872,7 +1462,83 @@ const allElementsInputs = [
     {
         question: "Francium",
         answer: "Fr",
-    }
+    },
+    {
+        question: "Berylium",
+        answer: "Be",
+    },
+    {
+        question: "Hořčík",
+        answer: "Mg",
+    },
+    {
+        question: "Vápník",
+        answer: "Ca",
+    },
+    {
+        question: "Stroncium",
+        answer: "Sr",
+    },
+    {
+        question: "Baryum",
+        answer: "Ba",
+    },
+    {
+        question: "Radium",
+        answer: "Ra",
+    },
+    {
+        question: "Cín",
+        answer: "Sn",
+    },
+    {
+        question: "Mangan",
+        answer: "Mn",
+    },
+    {
+        question: "Chrom",
+        answer: "Cr",
+    },
+    {
+        question: "Nikl",
+        answer: "Ni",
+    },
+    {
+        question: "Kobalt",
+        answer: "Co",
+    },
+    {
+        question: "Platina",
+        answer: "Pt",
+    },
+    {
+        question: "Helium",
+        answer: "He",
+    },
+    {
+        question: "Neon",
+        answer: "Ne",
+    },
+    {
+        question: "Argon",
+        answer: "Ar",
+    },
+    {
+        question: "Krypton",
+        answer: "Kr",
+    },
+    {
+        question: "Xenon",
+        answer: "Xe",
+    },
+    {
+        question: "Radon",
+        answer: "Rn",
+    },
+    {
+        question: "Oganesson",
+        answer: "Og",
+    },
 ]
 
 // 1.A Group
@@ -905,6 +1571,66 @@ const group1AInputs = [
     {
         question: "Francium",
         answer: "Fr",
+    }
+]
+
+// 2.A Group
+const group2AInputs = [
+    {
+        question: "Berylium",
+        answer: "Be",
+    },
+    {
+        question: "Hořčík",
+        answer: "Mg",
+    },
+    {
+        question: "Vápník",
+        answer: "Ca",
+    },
+    {
+        question: "Stroncium",
+        answer: "Sr",
+    },
+    {
+        question: "Baryum",
+        answer: "Ba",
+    },
+    {
+        question: "Radium",
+        answer: "Ra",
+    }
+]
+
+// 8.A Group
+const group8AInputs = [
+    {
+        question: "Helium",
+        answer: "He",
+    },
+    {
+        question: "Neon",
+        answer: "Ne",
+    },
+    {
+        question: "Argon",
+        answer: "Ar",
+    },
+    {
+        question: "Krypton",
+        answer: "Kr",
+    },
+    {
+        question: "Xenon",
+        answer: "Xe",
+    },
+    {
+        question: "Radon",
+        answer: "Rn",
+    },
+    {
+        question: "Oganesson",
+        answer: "Og",
     }
 ]
 
@@ -1040,7 +1766,83 @@ const allElementsWordsInputs = [
     {
         question: "Fr",
         answer: "Francium",
-    }
+    },
+    {
+        question: "Be",
+        answer: "Berylium",
+    },
+    {
+        question: "Mg",
+        answer: "Hořčík",
+    },
+    {
+        question: "Ca",
+        answer: "Vápník",
+    },
+    {
+        question: "Sr",
+        answer: "Stroncium",
+    },
+    {
+        question: "Ba",
+        answer: "Baryum",
+    },
+    {
+        question: "Ra",
+        answer: "Radium",
+    },
+    {
+        question: "Sn",
+        answer: "Cín",
+    },
+    {
+        question: "Mn",
+        answer: "Mangan",
+    },
+    {
+        question: "Cr",
+        answer: "Chrom",
+    },
+    {
+        question: "Ni",
+        answer: "Nikl",
+    },
+    {
+        question: "Co",
+        answer: "Kobalt",
+    },
+    {
+        question: "Pt",
+        answer: "Platina",
+    },
+    {
+        question: "He",
+        answer: "Helium",
+    },
+    {
+        question: "Ne",
+        answer: "Neon",
+    },
+    {
+        question: "Ar",
+        answer: "Argon",
+    },
+    {
+        question: "Kr",
+        answer: "Krypton",
+    },
+    {
+        question: "Xe",
+        answer: "Xenon",
+    },
+    {
+        question: "Rn",
+        answer: "Radon",
+    },
+    {
+        question: "Og",
+        answer: "Oganesson",
+    },
 ]
 
 // 1.A Group
@@ -1073,5 +1875,65 @@ const group1AWordsInputs = [
     {
         question: "Fr",
         answer: "Francium",
+    }
+]
+
+// 2.A Group
+const group2AWordsInputs = [
+    {
+        question: "Be",
+        answer: "Berylium",
+    },
+    {
+        question: "Mg",
+        answer: "Hořčík",
+    },
+    {
+        question: "Ca",
+        answer: "Vápník",
+    },
+    {
+        question: "Sr",
+        answer: "Stroncium",
+    },
+    {
+        question: "Ba",
+        answer: "Baryum",
+    },
+    {
+        question: "Ra",
+        answer: "Radium",
+    }
+]   
+
+// 8.A Group
+const group8AWordsInputs = [
+    {
+        question: "He",
+        answer: "Helium",
+    },
+    {
+        question: "Ne",
+        answer: "Neon",
+    },
+    {
+        question: "Ar",
+        answer: "Argon",
+    },
+    {
+        question: "Kr",
+        answer: "Krypton",
+    },
+    {
+        question: "Xe",
+        answer: "Xenon",
+    },
+    {
+        question: "Rn",
+        answer: "Radon",
+    },
+    {
+        question: "Og",
+        answer: "Oganesson",
     }
 ]

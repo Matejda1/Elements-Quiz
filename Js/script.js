@@ -72,6 +72,34 @@ function shuffleAnsAW() {
     });
 }
 
+function shuffleAns2A() {
+    console.log("Shuffled Answers per Question:");
+    group2A.forEach((q, index) => {
+        shuffle(q.answers);
+    });
+}
+
+function shuffleAns8A() {
+    console.log("Shuffled Answers per Question:");
+    group8A.forEach((q, index) => {
+        shuffle(q.answers);
+    });
+}
+
+function shuffleAns2AW() {
+    console.log("Shuffled Answers per Question:");
+    group2AWords.forEach((q, index) => {
+        shuffle(q.answers);
+    });
+}
+
+function shuffleAns8AW() {
+    console.log("Shuffled Answers per Question:");
+    group8AWords.forEach((q, index) => {
+        shuffle(q.answers);
+    });
+}
+
 // Start quiz function
 function startQuiz() {
     currentQuestionIndex = 0;
@@ -92,38 +120,39 @@ function startQuiz() {
     shuffle(group1AWords);
     shuffleAnsAW();
     shuffleAnsAW();
+    shuffle(group2A);
+    shuffleAns2A();
+    shuffleAns2A();
+    shuffle(group8A);
+    shuffleAns8A();
+    shuffleAns8A();
+    shuffle(group2AWords);
+    shuffleAns2AW();
+    shuffleAns2AW();
+    shuffle(group8AWords);
+    shuffleAns8AW();
+    shuffleAns8AW();
     shuffle(allElementsInputs);
     shuffle(allElementsWordsInputs);
     shuffle(group1AInputs);
     shuffle(group1AWordsInputs);
+    shuffle(group2AInputs);
+    shuffle(group8AInputs);
+    shuffle(group2AWordsInputs);
+    shuffle(group8AWordsInputs);
 
-    const what = document.querySelector(".what.active").value.toLowerCase();
     const from = document.querySelector(".from.active").value.toLowerCase();
 
-    if (what == "all" && from == "to") {
-        showQuestion();
+
+
+    if (from == "from" || from == "to") {
         quiz.style.display = "block";
-    } else if (what == "all" && from == "from") {
+        quizI.style.display = "none";
         showQuestion();
-        quiz.style.display = "block";
-    } else if (what == "a" && from == "to") {
-        showQuestion();
-        quiz.style.display = "block";
-    } else if (what == "a" && from == "from") {
-        showQuestion();
-        quiz.style.display = "block";
-    } else if (what == "all" && from == "fromm") {
-        showQuestionM();
+    } else if (from == "fromm" || from == "tom") {
+        quiz.style.display = "none";
         quizI.style.display = "block";
-    } else if (what == "all" && from == "tom") {
         showQuestionM();
-        quizI.style.display = "block";
-    } else if (what == "a" && from == "fromm") {
-        showQuestionM();
-        quizI.style.display = "block";
-    } else if (what == "a" && from == "tom") {
-        showQuestionM();
-        quizI.style.display = "block";
     } else {
         console.log("error don't work")
         showAlert("Upozornění", "Něco je špatně, zkuste to znovu. Pokud to ani tak nefunguje, konatujte vyvojáře.", "Okay");
@@ -156,6 +185,22 @@ function showQuestion() {
         currentQuestion = group1AWords[currentQuestionIndex];
         much = group1AWords.length;
         title.innerHTML = "1.A skupina - Ze značek na název"
+    } else if (what == "2a" && from == "to") {
+        currentQuestion = group2A[currentQuestionIndex];
+        much = group2A.length;
+        title.innerHTML = "2.A skupina - Z názvů na značky"
+    } else if (what == "2a" && from == "from") {
+        currentQuestion = group2AWords[currentQuestionIndex];
+        much = group2AWords.length;
+        title.innerHTML = "2.A skupina - Ze značek na název"
+    } else if (what == "8a" && from == "to") {
+        currentQuestion = group8A[currentQuestionIndex];
+        much = group8A.length;
+        title.innerHTML = "8.A skupina - Z názvů na značky"
+    } else if (what == "8a" && from == "from") {
+        currentQuestion = group8AWords[currentQuestionIndex];
+        much = group8AWords.length;
+        title.innerHTML = "8.A skupina - Ze značek na název"
     } else {
         console.log("error don't work")
         showAlert("Upozornění", "Něco je špatně, zkuste to znovu. Pokud to ani tak nefunguje, konatujte vyvojáře.", "Okay");
@@ -300,6 +345,22 @@ function showQuestionM() {
         currentQuestion = group1AWordsInputs[currentQuestionIndex]
         much = group1AWordsInputs.length;
         titleI.innerHTML = "1.A skupina - Z názvů na značky"
+    } else if (what == "2a" && from == "fromm") {
+        currentQuestion = group2AInputs[currentQuestionIndex]
+        much = group2AInputs.length;
+        titleI.innerHTML = "2.A skupina - Ze značek na název"
+    } else if (what == "2a" && from == "tom") {
+        currentQuestion = group2AWordsInputs[currentQuestionIndex]
+        much = group2AWordsInputs.length;
+        titleI.innerHTML = "2.A skupina - Z názvů na značky"
+    } else if (what == "8a" && from == "fromm") {
+        currentQuestion = group8AInputs[currentQuestionIndex]
+        much = group8AInputs.length;
+        titleI.innerHTML = "8.A skupina - Ze značek na název"
+    } else if (what == "8a" && from == "tom") {
+        currentQuestion = group8AWordsInputs[currentQuestionIndex]
+        much = group8AWordsInputs.length;
+        titleI.innerHTML = "8.A skupina - Z názvů na značky"
     } else {
         console.log("error don't work")
         showAlert("Upozornění", "Něco je špatně, zkuste to znovu. Pokud to ani tak nefunguje, konatujte vyvojáře.", "Okay");
@@ -382,4 +443,4 @@ confirmABtn.addEventListener("click", () => {
     titleA.innerHTML = "";
     textA.innerHTML = "";
     confirmABtn.innerHTML = "";
-})
+});
