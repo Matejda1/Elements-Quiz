@@ -290,3 +290,28 @@ body {
     margin-bottom: 5px;
     padding: 10px;
 }
+
+/* Footer */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height: 55px;
+    background-color: rgb(17 24 39);
+    color: white;
+}
+
+.footer > p{
+    margin-top: 5px;
+}
+.f-text1{
+    color: #cbd5e0;
+}
+.f-text2{
+    color: #63b3ed;
+}
+.f-text2:hover {
+    color: #90cdf4;
+}
